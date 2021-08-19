@@ -16,7 +16,7 @@ function getEmail(){
 function getEdad(){
     console.log(edad);
     var myEdadElement = document.getElementById("edad");
-    myEdadElement.innerHTML = '<h1>' + edad + </h1>;
+    myEdadElement.innerHTML = '<h1>' + edad + '</h1>';
     myEdadElement.style.color = "#0000FF";
     
 }
