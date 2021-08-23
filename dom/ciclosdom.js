@@ -19,11 +19,11 @@ function crealist(){
     var textElement = document.getElementById("mytext");
     mytext = textElement.value;
     console.log(mytext);
-    result = "<ol>";
+    result = "<ul>";
     for (var i = 0; i<number;i++){
         result += '<li>' + mytext + '</li>';
     }
-    result += '</ol>';
+    result += '</ul>';
     console.log;
     document.getElementById('listas').innerHTML = result;
 }
@@ -32,7 +32,7 @@ function creatable(){
     var textElement = document.getElementById("mytext");
     mytext = textElement.value;
     console.log(mytext);
-    result = "<table border = 1";
+    result = "<table border = 1>";
     result += '<tr> <th> texto </th> </tr>';
     for (var i = 0; i<number; i++){
         result += '<tr>' + '<td>' + mytext + '</td>' + '</tr>';
