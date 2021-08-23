@@ -8,7 +8,7 @@ function creap(){
     console.log(mytext);
     result = "";
     for(var i = 0; i<number; i++){
-        result += '<p>' + mytext + '</p>';
+        result += '<p>' +'<b>'+ mytext +'<b>'+ '</p>';
     }
     console.log(result);
     document.getElementById("parrafos").innerHTML = result;
